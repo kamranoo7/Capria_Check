@@ -1,0 +1,2822 @@
+2024-01-16 15:39:57
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 15:40:27
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 15:40:32
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 15:44:41
+name 'sufficent' is not defined
+
+
+
+
+2024-01-16 15:44:44
+name 'sufficent' is not defined
+
+
+
+
+2024-01-16 15:47:17
+name 'sufficent' is not defined
+
+
+
+
+2024-01-16 15:47:35
+name 'sufficent' is not defined
+
+
+
+
+2024-01-16 15:47:41
+name 'sufficent' is not defined
+
+
+
+
+2024-01-16 15:48:29
+name 'sufficent' is not defined
+
+
+
+
+2024-01-16 15:52:27
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 16:59:35
+Error code: 400 - {'error': {'message': 'The audio file could not be decoded or its format is not supported.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-16 17:06:31
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 17:06:41
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 17:06:45
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 17:13:47
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 17:15:51
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 17:41:48
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 19:15:18
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 19:16:33
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 19:24:35
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 23:48:48
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 23:50:37
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 23:53:17
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 23:53:24
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 23:53:27
+'NoneType' object has no attribute 'lower'
+
+
+
+
+2024-01-16 23:54:07
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 23:57:55
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 23:58:38
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-16 23:59:22
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 00:04:24
+'NoneType' object has no attribute 'choices'
+
+
+
+
+2024-01-17 00:04:49
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 00:05:32
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-17 00:05:32
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 00:07:09
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 00:11:54
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 02:49:41
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 02:53:06
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 02:54:59
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:02:12
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:09:49
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:14:01
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:16:44
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:19:51
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:20:32
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:27:11
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-17 03:50:25
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-17 10:06:52
+'Transcription' object has no attribute 'lower'
+
+
+
+
+2024-01-17 10:07:08
+'Transcription' object has no attribute 'lower'
+
+
+
+
+2024-01-17 10:22:04
+name 'ession' is not defined
+
+
+
+
+2024-01-17 10:22:15
+name 'ession' is not defined
+
+
+
+
+2024-01-17 10:31:17
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-18 16:02:12
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-18 16:21:17
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-18 16:22:48
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 01:59:52
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 02:07:19
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 02:15:52
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 02:54:57
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 04:00:16
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 04:35:48
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 04:38:07
+Error code: 400 - {'error': {'message': 'Audio file is too short. Minimum audio length is 0.1 seconds.', 'type': 'invalid_request_error', 'param': 'file', 'code': 'audio_too_short'}}
+
+
+
+
+2024-01-19 05:22:08
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 06:11:59
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 06:13:45
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-19 07:50:14
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-23 10:12:05
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-01-29 13:29:30
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+
+
+
+2024-01-29 13:36:05
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-29 14:32:14
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-29 14:39:33
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-29 15:26:23
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-01-29 15:34:23
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-14 14:36:17
+maximum recursion depth exceeded while calling a Python object
+
+
+
+
+2024-02-20 13:39:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 13:43:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 13:50:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:22:28
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:23:50
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:25:14
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:27:57
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:31:12
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:31:37
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:32:01
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:33:05
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:33:56
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:34:34
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:39:07
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:40:09
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 14:41:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:03:14
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:03:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:06:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:08:05
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:08:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:08:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:18:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:18:44
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:29:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:30:10
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:30:39
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:30:45
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:31:01
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:31:13
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:32:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:32:29
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:32:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:33:19
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:33:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:34:14
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:34:26
+'level_1_response'
+
+
+
+
+2024-02-20 15:34:29
+'level_1_response'
+
+
+
+
+2024-02-20 15:34:41
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:34:45
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 15:35:13
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:36:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:45:14
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:45:30
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:45:43
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:46:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:50:10
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:51:24
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:53:18
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:53:59
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:54:43
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:56:09
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:57:03
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:57:42
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 16:58:23
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:02:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:03:10
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:05:04
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:05:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:06:53
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:07:43
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:09:28
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:09:58
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:11:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:12:50
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:13:12
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:13:27
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:15:47
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:15:57
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:37:23
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:37:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:38:11
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:52:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:53:18
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 17:53:28
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 18:15:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 18:16:13
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 18:16:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 18:16:23
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 18:16:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 18:16:57
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:11:03
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:11:09
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:11:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:11:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:13:04
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:13:26
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:13:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:13:43
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:13:58
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:21:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:22:09
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:24:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:29:27
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:30:49
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:35:10
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:59:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 22:59:42
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-20 23:00:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:20:59
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:21:34
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:32:42
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:33:19
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:36:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:37:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:39:24
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:44:27
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:46:39
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 12:48:27
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 13:16:32
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 13:17:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 13:43:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 13:44:11
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 13:45:42
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 13:48:00
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 13:48:53
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 14:17:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:24:58
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:25:12
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:25:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:28:10
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:29:11
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:29:41
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:30:19
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:30:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:30:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:31:01
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:31:02
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:31:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:31:51
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:32:37
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:32:42
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:33:05
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:33:30
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:33:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:34:03
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:35:13
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:35:41
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:35:43
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:36:29
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:37:23
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:38:19
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:38:53
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:40:56
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:42:50
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:42:58
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:45:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:45:18
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:45:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:45:31
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:46:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:46:49
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:47:00
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:47:10
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:47:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:47:39
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:47:55
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:48:11
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:49:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:50:05
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:50:12
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:50:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:50:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:50:41
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:50:54
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:51:55
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:52:49
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:53:19
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:53:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:53:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:53:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:53:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:53:57
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:54:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:54:24
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:55:13
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:55:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:56:16
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:56:32
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:56:47
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:57:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:57:49
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:57:53
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:58:01
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:58:44
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:59:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-21 23:59:52
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:00:08
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:00:12
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:00:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:00:42
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:00:43
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:00:59
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:01:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:02:49
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:03:31
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:03:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:04:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:04:47
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:05:23
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:05:36
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:05:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 00:05:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 11:37:34
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:05:27
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:09:05
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:09:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:09:35
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:09:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:09:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:10:45
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:10:47
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:10:54
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:12:37
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:12:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:23:51
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:58:06
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 12:58:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:02:25
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:02:32
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:02:45
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:02:46
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:02:46
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:02:47
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:02:47
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:02:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:02:55
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:02
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:03
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:03
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:16
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:16
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:16
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:16
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:16
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:16
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:16
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:17
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:17
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:18
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:18
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:18
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:18
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:19
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:19
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:19
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:19
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:19
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:20
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:20
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:03:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:20
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:21
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:03:22
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:05:39
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:05:40
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:05:40
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:05:41
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:05:41
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:05:41
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:05:41
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:05:41
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:05:42
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:05:43
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:06:30
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:06:30
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:06:30
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:06:31
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:06:37
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:27:32
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:27:33
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:27:50
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:27:51
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:27:52
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:27:53
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:33:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:34:07
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:34:08
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:34:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:36:10
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-22 14:36:10
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:36:11
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:36:15
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 14:36:23
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 15:15:48
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 15:16:02
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 15:16:18
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 15:16:27
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 21:54:25
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 21:54:38
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:01:33
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:01:36
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:01:45
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:01:47
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:01:48
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-02-22 22:01:49
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:01:57
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-02-22 22:01:57
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:02:05
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:02:08
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:03:05
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:05:54
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:06:07
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:17:32
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:17:50
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:18:31
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:19:17
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:20:08
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:20:40
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:22:06
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-22 22:22:29
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-23 11:29:51
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-23 11:30:06
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-23 11:30:07
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-23 11:30:50
+name 'metadataeg' is not defined
+
+
+
+
+2024-02-23 11:35:01
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-02-23 17:51:54
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-02-23 18:09:35
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-23 18:09:36
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-23 18:09:36
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-23 18:09:37
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-23 18:09:37
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-23 18:09:38
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-02-23 18:30:48
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-03-14 01:20:19
+qdb() got an unexpected keyword argument 'filename'
+
+
+
+
+2024-03-14 01:20:23
+qdb() got an unexpected keyword argument 'filename'
+
+
+
+
+2024-03-18 15:15:04
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-03-18 19:08:16
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-03-18 19:48:08
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-03-22 18:21:06
+maximum recursion depth exceeded while calling a Python object
+
+
+
+
+2024-04-03 14:35:24
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-04-11 02:29:58
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:32:57
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:35:04
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:35:48
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:36:15
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:37:15
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:39:33
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:40:13
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-11 02:40:54
+'Capria Ventures Organization Chart: Sandhya Thukaram - COO'
+
+
+
+
+2024-04-12 14:48:54
+'level_1_response'
+
+
+
+
+2024-04-12 14:57:54
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-04-12 14:58:09
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-04-12 15:02:41
+can only concatenate str (not "NoneType") to str
+
+
+
+
+2024-04-13 10:22:08
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+
+
+2024-04-16 13:52:14
+'transcription'
+
+
+
+
+2024-04-22 10:57:14
+'level_1_response'
+
+
+
+
+2024-04-22 11:02:13
+'level_1_response'
+
+
+
+
+2024-04-22 11:03:50
+'level_2_response'
+
+
+
+
+2024-04-22 11:06:29
+'level_2_response'
+
+
+
+
+2024-04-22 11:06:59
+'level_2_response'
+
+
+
+
+2024-04-22 11:13:14
+'level_1_response'
+
+
+
+
+2024-04-22 11:14:34
+'level_1_response'
+
+
+
+
+2024-04-22 11:14:47
+'level_1_response'
+
+
+
+
+2024-04-22 11:15:57
+'level_1_response'
+
+
+
+
+2024-04-22 11:21:40
+'level_2_response'
+
+
+
+
+2024-04-22 11:29:25
+'level_1_response'
+
+
+
+
+2024-04-22 11:29:56
+'level_1_response'
+
+
+
+
+2024-04-22 11:50:53
+'level_2_response'
+
+
+
+
+2024-04-22 11:55:27
+'level_1_response'
+
+
+
+
+2024-04-22 11:55:38
+'level_1_response'
+
+
+
+
+2024-04-22 11:56:08
+'level_1_response'
+
+
+
+
+2024-04-22 11:56:15
+'level_1_response'
+
+
+
+
+2024-04-22 11:56:27
+'level_1_response'
+
+
+
+
+2024-04-22 11:57:13
+'level_1_response'
+
+
+
+
+2024-04-22 11:57:17
+'level_1_response'
+
+
+
+
+2024-04-22 12:07:30
+'level_1_response'
+
+
+
+
+2024-04-22 12:07:34
+'level_1_response'
+
+
+
+
+2024-04-22 12:07:41
+'level_1_response'
+
+
+
+
+2024-04-22 14:15:04
+'level_1_response'
+
+
+
+
+2024-04-22 14:15:24
+'level_2_response'
+
+
+
+
+2024-04-22 14:18:14
+'level_1_response'
+
+
+
+
+2024-04-22 14:20:33
+'level_1_response'
+
+
+
+
+2024-04-22 14:21:12
+'level_2_response'
+
+
+
+
+2024-04-22 15:30:36
+'level_2_response'
+
+
+
+
+2024-04-22 15:33:30
+'level_2_response'
+
+
+
+
+2024-04-22 15:33:45
+'level_2_response'
+
+
+
+
+2024-04-22 15:36:12
+'level_1_response'
+
+
+
+
+2024-04-22 15:36:39
+'level_1_response'
+
+
+
+
+2024-04-22 15:40:01
+'level_1_response'
+
+
+
+
+2024-04-22 15:41:08
+'level_1_response'
+
+
+
+
+2024-04-22 15:41:59
+'level_1_response'
+
+
+
+
+2024-04-22 15:42:53
+'level_1_response'
+
+
+
+
+2024-04-22 15:45:54
+'level_1_response'
+
+
+
+
+2024-04-22 15:49:53
+'level_2_response'
+
+
+
+
+2024-05-29 16:03:58
+'He heard people talking and sharing stories as well. The old owl had seen so much and heard all kinds of stories.'
+
+
+
+
+2024-06-01 22:26:08
+[Errno 2] No such file or directory: 'tag_for_each_sentence_will.poole@capria.vc.json'
+
+
+
+
+2024-06-01 22:44:11
+[Errno 2] No such file or directory: 'tag_for_each_sentence_will.poole@capria.vc.json'
+
+
+
+
+2024-06-01 22:50:05
+name 'email' is not defined

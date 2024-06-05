@@ -1,0 +1,21 @@
+{
+    "l1": "Spiderman",
+    "l2": "Enter your L2 Text on Control Panel",
+    "p1": "Enter your Prompt1 on Control Panel",
+    "p2": "Enter your Prompt2 on Control Panel",
+    "intro": "Hello I am sumat",
+    "name": "Enter your Project Name on Control Panel",
+    "searchprompt": "Enter your L2 Prompt on Control Panel",
+    "adminLoginCount": 0,
+    "layerLevel": "bothLevels",
+    "whitelist": false,
+    "vectorFileChange": {
+        "userName": "pranavc@capria.vc",
+        "time": "2024-06-05T10:48:14.235747",
+        "layer": "layer2"
+    },
+    "adminLoginEmail": "pranavc@capria.vc",
+    "adminLoginFlag": true,
+    "adminLastActivity": "2024-06-05 11:04:40.331530+00:00",
+    "instanceRunning": "pranavc@capria.vc"
+}
