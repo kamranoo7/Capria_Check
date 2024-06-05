@@ -1,0 +1,398 @@
+body {
+  font-family: 'Courier New', monospace;
+}
+
+.blur-effect {
+  filter: blur(5px);
+}
+
+/* Existing styles... */
+.config-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.config-block {
+  flex: 1;
+  padding: 10px;
+}
+
+.config-form input[type="text"],
+.config-form input[type="submit"] {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.config-form label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(242, 235, 235);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add more styles for the form inside the modal if needed */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.headingBox {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.headingBox h1 {
+  color: #000000;
+  text-align: center;
+}
+
+.headingBox button {
+  background: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+form {
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #000;
+  color: rgb(199, 198, 198);
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+#language {
+  background: black;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#loadingMessage {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+  font-family: 'Courier New', monospace;
+}
+
+.blur-effect {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+/* Existing styles... */
+.config-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.config-block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+}
+
+.config-form input[type="text"],
+.config-form input[type="submit"] {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.config-form label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(242, 235, 235);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add more styles for the form inside the modal if needed */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.headingBox {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
+}
+
+.headingBox h1 {
+  color: #000000;
+  text-align: center;
+}
+
+.headingBox button {
+  background: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+form {
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #000;
+  color: rgb(199, 198, 198);
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+#language {
+  background: black;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#loadingMessage {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
