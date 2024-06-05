@@ -1,0 +1,21 @@
+{
+    "layer1": {
+        "layer1URL": "https://sumat-testing-n5f51rao.weaviate.network",
+        "layer1DriveURL": "https://drive.google.com/drive/folders/131-9rqlAUS24AbBTDSDCFCTaqhrMQYN0",
+        "layer1AuthKey": "h8qIYS4bsKWnwh1A5m8KxZQk4tGoLgbYLDjD",
+        "classNamelayer1": "itsnewlayermay",
+        "process_image": true,
+        "layer1SliderValue": 437,
+        "openaiKey": "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"
+    },
+    "layer2": {
+        "layer2URL": "https://sumat-testing-n5f51rao.weaviate.network",
+        "layer2DriveURL": "https://drive.google.com/drive/folders/1tp2jcSvO57-oR_rjkqqCiZVRn4S2gK11",
+        "layer2AuthKey": "h8qIYS4bsKWnwh1A5m8KxZQk4tGoLgbYLDjD",
+        "classNamelayer2": "itsnewlayermaynl",
+        "process_image": true,
+        "layer2SliderValue": 404,
+        "openaiKey": "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"
+    },
+    "openaiKey": "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"
+}
