@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Loactions</title>
+    <link  rel="icon" type="image/x-icon" sizes="400x400" href="../static/icons/logo.png">
+    <style>
+      #title{
+        font-family: 'Courier New', Courier, monospace;
+      }
+      @media (max-width: 430px) {
+        #nav{
+          display: flex;
+          width: 160px;
+         gap: 2px; 
+          align-items: center;
+          justify-content: center;
+        }
+        #title{
+          font-size: 12px;
+         width: 220px;
+        }
+  .headingBox {
+    display: flex;
+    text-align: center;
+    padding: 0 10px; /* Add padding for smaller screens */
+  }
+
+  .headingBox h1 {
+    font-size: 20px; /* Smaller font size for the title */
+    margin-top: 10px; /* Adjust top margin */
+  }
+
+  .headingBox div button {
+    font-size: 14px; /* Smaller font size for buttons */
+    padding: 5px 10px; /* Reduce padding */
+    margin: 5px 0; /* Add some margin around buttons */
+  }
+
+  #map {
+    height: 70vh; /* Adjust height for better fit */
+    width: 95%; /* Increase width to use more of the screen */
+    margin-top: 15px; /* Adjust margin at the top */
+  }
+
+  .custom-toast {
+    right: 10px; /* Adjust position for smaller screens */
+    left: 10px; /* Ensure it doesn't touch the screen edges */
+    text-align: center; /* Center the text */
+    width: auto; /* Auto width to fit the content */
+    max-width: 90%; /* Ensure it doesn't get too wide */
+    font-size: 14px; /* Make the font size smaller */
+  }
+  #nav>a{
+    width: 200px;
+    font-size: 12px;
+    margin-right: -30px;
+  }
+}
+      #map {
+        height: 75vh;
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+      }
+
+      .custom-toast {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 9999;
+      display: none;
+    }
+    body{
+      font-family: 'Courier New', Courier, monospace;
+    }
+    </style>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+        />
+    <link rel="stylesheet" href="/static/styles/controlPnl.css" />
+  </head>
+  <body>
+    <div class="headingBox">
+      <h1 id="title">User Locations Map</h1>
+      <div id="nav">
+        <a style="font-family: 'Courier New', Courier, monospace;" href="/control_panel" onclick="playSoundEffect(interfaceSound);">
+          <button id="">Control Panel</button>
+        </a>
+        <a href="/chat" onclick="playSoundEffect(interfaceSound);">
+          <button id="">Home</button>
+        </a>
+      </div>
+    </div>
+    <div>
+      <div id="map"></div>
+    </div>
+    <div id="customToast" class="custom-toast"></div>
+
+    <script>
+        let markers = [];
+    
+        function getMaps() {
+            fetch("/getLocations")
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    console.log("Locations:", data);
+                    // Process the received data here
+                    initMap(data);
+                })
+                .catch((error) => {
+                    console.error(
+                        "There was a problem with the fetch operation:",
+                        error
+                    );
+                });
+        }
+    
+        function initMap(locations) {
+    // Initialize the map
+    const map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 0, lng: 0 },
+        zoom: 2,
+    });
+
+    function addMarker(location, title) {
+        const marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            title: title,
+        });
+        markers.push(marker);
+
+        // Add click event listener to the marker
+        marker.addListener("click", function () {
+            showToast(title.toString(),  10000);
+        });
+    }
+
+    // Count occurrences of each unique location
+    const locationCounts = {};
+    locations.forEach((location) => {
+        const { latitude, longitude } = location;
+        const locationKey = `${latitude},${longitude}`;
+        locationCounts[locationKey] = (locationCounts[locationKey] || 0) + 1;
+    });
+
+    locations.forEach((location) => {
+        const { latitude, longitude } = location;
+        const locationKey = `${latitude},${longitude}`;
+        let count = locationCounts[locationKey];
+        // const title = `Location (${latitude}, ${longitude}) - Count: ${count}`;
+        title = `Number of API Calls - ${count}`
+        addMarker(
+            {
+                lat: parseFloat(latitude),
+                lng: parseFloat(longitude),
+            },
+            title
+        );
+    });
+}
+
+    
+        getMaps();
+
+
+
+    function showToast(message, duration) {
+    const toastElement = document.getElementById('customToast');
+    toastElement.textContent = message;
+    toastElement.style.display = 'block';
+
+    setTimeout(() => {
+      toastElement.style.display = 'none';
+    }, duration);
+  }
+    </script>
+    
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2MYzTaUbe3igfNbsERhavvgusXeR4Gz0&callback=initMap"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  </body>
+</html>
