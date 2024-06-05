@@ -1,0 +1,48 @@
+What is callback hell?
+
+Callback hell, also known as "Pyramid of Doom" or "Callback Spaghetti," is a term used to describe a situation in JavaScript where multiple nested callback functions are used within asynchronous operations, making the code difficult to read, understand, and maintain. It occurs when you have a series of dependent asynchronous tasks that are executed one after the other using callbacks. This can lead to deeply indented and hard-to-follow code.
+
+What is XHR / AJAX?
+
+XHR (XMLHttpRequest) and AJAX (Asynchronous JavaScript and XML) are techniques used in web development to send and receive data from a server without having to reload the entire web page. XHR is a browser API that allows making HTTP requests from JavaScript to fetch data asynchronously. AJAX refers to the combination of XHR and other technologies like HTML, CSS, and JavaScript to create dynamic and interactive web applications.
+
+What is an API?
+
+API stands for Application Programming Interface. It is a set of rules and protocols that allows different software applications to communicate with each other. APIs define the methods and data formats that developers can use to request and exchange information between systems. In web development, APIs are often used to access data or functionality provided by external services, such as fetching data from a remote server or interacting with third-party services like social media platforms.
+
+What are Browser APIs?
+
+Browser APIs, also known as Web APIs, are sets of functions and methods exposed by web browsers to JavaScript developers. These APIs provide access to various browser features and functionality, allowing developers to interact with web page elements, handle user input, make network requests, manipulate the Document Object Model (DOM), and perform other tasks. Some common examples of browser APIs include the DOM API, Fetch API, Geolocation API, and Web Storage API.
+
+Explain what setInterval and setTimeout are? How do they work?
+
+setTimeout: setTimeout is a JavaScript function that allows you to schedule the execution of a function (or a code block) after a specified delay in milliseconds. Once the specified time elapses, the function is added to the callback queue and executed when the call stack is empty.
+Example:
+
+javascript
+setInterval: setInterval is similar to setTimeout but repeatedly executes a function at specified intervals until it is cleared using clearInterval.
+Example:
+
+
+Yes, JavaScript is primarily single-threaded. This means it has a single main execution thread (the "event loop") that processes code sequentially. However, JavaScript can also utilize asynchronous operations and worker threads to handle non-blocking tasks like I/O operations and expensive computations without blocking the main thread.
+
+How does JavaScript handle asynchronous behavior?
+
+JavaScript handles asynchronous behavior through mechanisms like callbacks, promises, and async/await. Asynchronous operations are executed separately from the main thread to ensure that the application remains responsive.
+
+Callbacks: Callback functions are executed when asynchronous operations are completed. Callbacks can lead to callback hell when deeply nested.
+
+Promises: Promises provide a more structured way to work with asynchronous code. They allow you to handle success and error cases separately using .then() and .catch().
+
+Async/Await: Async/await is a more recent addition to JavaScript that provides a synchronous-like syntax for handling asynchronous operations. It simplifies the code and makes it more readable.
+
+What is the event loop?
+
+The event loop is a fundamental concept in JavaScript's concurrency model. It is responsible for handling asynchronous operations and ensuring that the main thread remains responsive. The event loop continuously checks the call stack and the message queue.
+
+Here's a simplified overview of how the event loop works:
+
+The call stack is checked. If it's empty, the event loop looks at the message queue.
+If there are tasks in the queue, they are moved from the queue to the call stack one by one and executed in order.
+Once a task is executed or the call stack is empty again, the event loop continues to check for more tasks in the queue.
+This mechanism allows JavaScript to handle asynchronous operations like timers, network requests, and user interactions without blocking the execution of other code.
