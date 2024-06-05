@@ -1,0 +1,146 @@
+[
+    {
+        "username": "pranavc@capria.vc",
+        "language": "en",
+        "projectName": "Enter your Project Name on Control Panel",
+        "intro": "Hello I am sumat",
+        "level2_search_prompt": "Enter your L2 Prompt on Control Panel",
+        "l1_text": "Spiderman",
+        "l2_text": "Enter your L2 Text on Control Panel",
+        "p1": "Enter your Prompt1 on Control Panel",
+        "p2": "Enter your Prompt2 on Control Panel",
+        "layer1_config": {
+            "layer1URL": "https://sumat-testing-n5f51rao.weaviate.network",
+            "layer1DriveURL": "https://drive.google.com/drive/folders/131-9rqlAUS24AbBTDSDCFCTaqhrMQYN0",
+            "layer1AuthKey": "h8qIYS4bsKWnwh1A5m8KxZQk4tGoLgbYLDjD",
+            "classNamelayer1": "itsnewlayermay",
+            "process_image": true,
+            "layer1SliderValue": 437,
+            "openaiKey": "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"
+        },
+        "layer2_config": {
+            "layer2URL": "https://sumat-testing-n5f51rao.weaviate.network",
+            "layer2DriveURL": "https://drive.google.com/drive/folders/1tp2jcSvO57-oR_rjkqqCiZVRn4S2gK11",
+            "layer2AuthKey": "h8qIYS4bsKWnwh1A5m8KxZQk4tGoLgbYLDjD",
+            "classNamelayer2": "itsnewlayermaynl",
+            "process_image": true,
+            "layer2SliderValue": 404,
+            "openaiKey": "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"
+        },
+        "vectorFileChange": {
+            "userName": "pranavc@capria.vc",
+            "time": "2024-06-05T10:48:14.245611",
+            "layer": "layer2"
+        },
+        "email": "pranavc@capria.vc",
+        "openaiKey": "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"
+    },
+    {
+        "username": "sumatm@capria.vc",
+        "language": "en",
+        "projectName": "MyBot",
+        "intro": "Enter your Intro on Control Panel",
+        "level2_search_prompt": "Enter your L2 Prompt on Control Panel",
+        "l1_text": "Enter your L1 Text on Control Panel",
+        "l2_text": "Enter your L2 Text on Control Panel",
+        "p1": "Enter your Prompt1 on Control Panel",
+        "p2": "Enter your Prompt2 on Control Panel",
+        "layer1_config": {
+            "layer1URL": "https://sumat-testing-n5f51rao.weaviate.network",
+            "layer1DriveURL": "https://drive.google.com/drive/folders/1E9uInAIQkXGVWji_ptGu0ockTk-Fv9X5",
+            "layer1AuthKey": "h8qIYS4bsKWnwh1A5m8KxZQk4tGoLgbYLDjD",
+            "classNamelayer1": "testclassmay11",
+            "process_image": true,
+            "layer1SliderValue": 838,
+            "openaiKey": "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"
+        },
+        "layer2_config": {
+            "openaiKey": "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",
+            "layer2URL": "https://sumat-testing-n5f51rao.weaviate.network",
+            "layer2DriveURL": "hhttps://drive.google.com/drive/u/0/folders/1E9uInAIQkXGVWji_ptGu0ockTk-Fv9X5",
+            "layer2AuthKey": "h8qIYS4bsKWnwh1A5m8KxZQk4tGoLgbYLDjD",
+            "classNamelayer2": "testclassmay43",
+            "process_image": true,
+            "layer2SliderValue": 891
+        },
+        "vectorFileChange": {
+            "userName": "sumatm@capria.vc",
+            "time": "2024-06-01T22:39:39.447219",
+            "layer": "layer1"
+        },
+        "openaiKey": "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",
+        "email": "sumatm@capria.vc"
+    },
+    {
+        "username": "will.poole@capria.vc",
+        "language": "en",
+        "projectName": "Enter your Project Name on Control Panel",
+        "intro": "Enter your Intro on Control Panel",
+        "level2_search_prompt": "Enter your L2 Prompt on Control Panel",
+        "l1_text": "Enter your L1 Text on Control Panel",
+        "l2_text": "Enter your L2 Text on Control Panel",
+        "p1": "Enter your Prompt1 on Control Panel",
+        "p2": "Enter your Prompt2 on Control Panel",
+        "layer1_config": {
+            "openaiKey": "",
+            "layer1URL": "",
+            "layer1DriveURL": "",
+            "layer1AuthKey": "",
+            "classNamelayer1": "",
+            "process_image": true,
+            "layer1SliderValue": 0
+        },
+        "layer2_config": {
+            "openaiKey": "",
+            "layer2URL": "",
+            "layer2DriveURL": "",
+            "layer2AuthKey": "",
+            "classNamelayer2": "",
+            "process_image": true,
+            "layer2SliderValue": 0
+        },
+        "vectorFileChange": {
+            "userName": "will.poole@capria.vc",
+            "time": "",
+            "layer": ""
+        },
+        "openaiKey": "",
+        "email": "will.poole@capria.vc"
+    },
+    {
+        "username": "neeharikay@capria.vc",
+        "language": "en",
+        "projectName": "Enter your Project Name on Control Panel",
+        "intro": "Enter your Intro on Control Panel",
+        "level2_search_prompt": "Enter your L2 Prompt on Control Panel",
+        "l1_text": "Enter your L1 Text on Control Panel",
+        "l2_text": "Enter your L2 Text on Control Panel",
+        "p1": "Enter your Prompt1 on Control Panel",
+        "p2": "Enter your Prompt2 on Control Panel",
+        "layer1_config": {
+            "openaiKey": "",
+            "layer1URL": "",
+            "layer1DriveURL": "",
+            "layer1AuthKey": "",
+            "classNamelayer1": "",
+            "process_image": true,
+            "layer1SliderValue": 0
+        },
+        "layer2_config": {
+            "openaiKey": "",
+            "layer2URL": "",
+            "layer2DriveURL": "",
+            "layer2AuthKey": "",
+            "classNamelayer2": "",
+            "process_image": true,
+            "layer2SliderValue": 0
+        },
+        "vectorFileChange": {
+            "userName": "neeharikay@capria.vc",
+            "time": "",
+            "layer": ""
+        },
+        "openaiKey": "",
+        "email": "neeharikay@capria.vc"
+    }
+]
