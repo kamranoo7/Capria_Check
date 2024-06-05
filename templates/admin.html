@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link  rel="icon" type="image/x-icon" sizes="400x400" href="../static/icons/logo.png">
+    <style>
+    body {
+  background: #000;
+  color: white;
+ font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: #000;
+}
+
+.navbar button {
+  background: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Table header cell */
+th {
+  background-color: #242323;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+
+.updateBtn,
+.removeBtn,
+.actionBtn,
+.whiteList {
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: rgb(52, 151, 227);
+}
+
+.tableList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.transfromText {
+  text-transform: capitalize;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #080808;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modalmid {
+  display: flex;
+  gap: 1rem;
+}
+
+.modalmid > div {
+  flex: 1;
+}
+
+/* Form */
+.form-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input {
+  padding: 5px;
+}
+
+.form-button {
+  padding: 8px 16px;
+  background-color: #5389c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries */
+/* Media Queries */
+@media (max-width: 430px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar h3,
+  .navbar div {
+    margin-bottom: 10px;
+  }
+
+  .tableList {
+   
+    overflow-x: auto; /* Allow horizontal scrolling for the table */
+    margin: 0 -1rem; /* Adjust margins to align with page content */
+    padding: 0 10px; /* Add padding to create space around the table */
+  }
+
+  table {
+    
+   
+    min-width: 280px; /* Set a minimum width for the table */
+  }
+
+  th, td {
+    padding: 4px 8px; /* Reduce padding inside table cells */
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
+
+  .updateBtn,
+  .removeBtn,
+  .actionBtn,
+  .whiteList {
+    padding: 3px 6px; /* Reduce button padding */
+    font-size: 10px; /* Reduce font size on buttons */
+  }
+
+  .modal-content {
+    
+    width: 80%; /* Adjusted width for smaller screens */
+    margin: 10% auto; /* Top margin and horizontally centered */
+    padding: 20px;
+    /* Adjust margin for clear gap between screen and modal boundaries */
+    margin: 10% 5%; /* Increase side margins to create a clear gap */
+  }
+
+  .modalmid {
+    flex-direction: column;
+  }
+
+  .form-input, .form-button {
+    padding: 4px 8px; /* Adjust form input and button padding */
+    font-size: 12px; /* Adjust font size for form elements */
+  }
+}
+@media (max-width: 667px) {
+  /* Adjustments for slightly larger screens, such as iPhone 6/7/8 Plus */
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar h3,
+  .navbar div {
+    margin-bottom: 10px;
+  }
+
+  .modal-content {
+    width: 95%; /* Slightly larger width for larger phones */
+    margin: 10% auto;
+  }
+
+  .modalmid {
+    flex-direction: column;
+  }
+}
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h3>Admin Control</h3>
+      <div>
+        <a href="/control_panel"> <button>Control Panel</button></a>
+        <button onclick="openModal()">WhiteListedUser</button>
+      </div>
+    </div>
+    <div id="container">
+      <div class="tableList">
+        <div id="loadingIndicator" style="display: none">Loading...</div>
+        <div id="userList"></div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <!-- The modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div>
+          <h4>Email Id:</h4>
+          <div class="modalmid">
+            <div id="modalContent">Loading...</div>
+            <div>
+              <form class="form-container" id="emailForm">
+                <label class="form-label">Add Email ID:</label>
+                <input type="text" class="form-input" id="emailInput" />
+                <button type="submit" class="form-button">Add Email</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Placeholder for email list -->
+      </div>
+    </div>
+  </body>
+
+  <script>
+    function populateUserTable(userList) {
+      const tableBody = document.getElementById("userList");
+
+      tableBody.innerHTML = "";
+
+      const tableHeading = document.createElement("tr");
+      tableHeading.innerHTML = `
+    <th>No.</th>
+   
+    <th>User Email</th>
+    <th>Role</th>
+    <th>Remove</th>
+  `;
+      tableBody.appendChild(tableHeading);
+
+      // Loop through user data and create table rows
+      userList.forEach((user, index) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+      <td>${index + 1}</td>
+     
+      <td>${user.email}</td>
+      <td><button class="updateBtn">${
+        user.role === "user" ? "Make Admin" : "Remove Admin"
+      }</button></td>
+      <td><button class="removeBtn">${"Remove"}</button></td>
+    `;
+
+        const updateButton = row.querySelector(".updateBtn");
+        const removeButton = row.querySelector(".removeBtn");
+
+        // Add event listeners to update, remove, and action buttons
+        updateButton.addEventListener("click", () => {
+          handleUpdate(user);
+        });
+
+        removeButton.addEventListener("click", () => {
+          handleRemove(user);
+        });
+
+        // Apply styles based on user role
+        if (user.role === "admin") {
+          updateButton.style.backgroundColor = "red";
+        } else {
+          updateButton.style.backgroundColor = "orange";
+        }
+
+        tableBody.appendChild(row);
+      });
+    }
+
+    function handleUpdate(user) {
+      console.log("Update button clicked for user:", user);
+
+      const newRole = user.role === "admin" ? "user" : "admin";
+
+      fetch("/admin_list", {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ userId: user.userID, role: newRole }),
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to update user");
+          }
+          console.log("User updated successfully");
+          window.location.reload();
+        })
+        .catch((error) => {
+          console.error("Error updating user:", error);
+        });
+    }
+
+    // Function to handle remove functionality
+    function handleRemove(user) {
+      console.log("Remove button clicked for user:", user);
+
+      // Send a DELETE request to the backend
+      fetch(`/admin_list?userId=${user.userID}`, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        // Optionally, you can send additional data in the request body
+        // body: JSON.stringify({ userId: user.userID })
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to remove user");
+          }
+          console.log("User removed successfully");
+          window.location.reload();
+        })
+        .catch((error) => {
+          console.error("Error removing user:", error);
+          // Handle errors, show error message, etc.
+        });
+    }
+
+    function fetchUser() {
+      // Set loading state to true
+      let isLoading = true;
+
+      // Show loading indicator
+      showLoadingIndicator();
+
+      fetch("/users", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          // Update loading state to false when data is fetched
+          isLoading = false;
+          console.log(data);
+          populateUserTable(data);
+        })
+        .catch((error) => {
+          // Update loading state to false when an error occurs
+          isLoading = false;
+          console.error("There was a problem with the fetch operation:", error);
+        })
+        .finally(() => {
+          // Hide loading indicator after fetch operation is complete
+          hideLoadingIndicator();
+        });
+    }
+
+    function showLoadingIndicator() {
+      // Show loading indicator UI (e.g., spinner, loading text)
+      document.getElementById("loadingIndicator").style.display = "block";
+    }
+
+    function hideLoadingIndicator() {
+      // Hide loading indicator UI
+      document.getElementById("loadingIndicator").style.display = "none";
+    }
+
+    document.addEventListener("DOMContentLoaded", fetchUser);
+
+    // -----------------------------------
+
+    var modal = document.getElementById("myModal");
+
+    // Function to open the modal
+    function openModal() {
+      fetchAndShowEmailList();
+      modal.style.display = "block";
+    }
+
+    // Function to close the modal
+    function closeModal() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+
+    function fetchAndShowEmailList() {
+      fetch("/whiteListUsers")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to fetch email list");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          populateWListUserTable(data);
+        })
+        .catch((error) => {
+          console.error("Error fetching email list:", error);
+          const modalContent = document.getElementById("modalContent");
+          modalContent.textContent = "Error: " + error.message;
+        });
+    }
+
+    function populateWListUserTable(userList) {
+      const tableBody = document.getElementById("modalContent");
+
+      tableBody.innerHTML = "";
+      tableBody.innerHTML = "";
+
+      const tableHeading = document.createElement("tr");
+      tableHeading.innerHTML = `
+              <th>No.</th>
+              <th>User Email</th>
+              <th>Remove Access</th>
+              `;
+      tableBody.appendChild(tableHeading);
+
+      // Loop through user data and create table rows
+      userList.forEach((user, index) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>${user.email}</td>
+                    <td><button class="removeBtn">${"Revoke Access"}</button></td>
+                    `;
+
+        const removeButton = row.querySelector(".removeBtn");
+
+        removeButton.addEventListener("click", () => {
+          revokeAccess(user);
+        });
+
+        tableBody.appendChild(row);
+      });
+    }
+
+    function revokeAccess(user) {
+      fetch("/whiteList", {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ userID: user.userID }), 
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to revoke access");
+          }
+          console.log("Access revoked successfully for:", user.email);
+          fetchAndShowEmailList(); 
+        })
+        .catch((error) => {
+          console.error("Error revoking access:", error);
+          
+        });
+    }
+
+    let form = document.getElementById("emailForm");
+
+    form.addEventListener("submit", handleFormInput);
+    const emailInput = document.getElementById("emailInput");
+
+    function handleFormInput(event) {
+      event.preventDefault();
+
+      let email = emailInput.value;
+
+      fetch("/whiteList", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email: email, isWhiteList: true }),
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to add email");
+          }
+          console.log("Email added successfully");
+          emailInput.value = "";
+          fetchAndShowEmailList();
+          // alert("Email added successfully");
+        })
+        .catch((error) => {
+          console.error("Error adding email:", error);
+        });
+    }
+  </script>
+</html>
