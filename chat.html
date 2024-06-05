@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobBot</title>
+  <link  rel="icon" type="image/x-icon" sizes="400x400" href="../static/icons/logo.png">
+  <link rel="stylesheet" href="/static/styles/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles/voice.css" />
+  <style>
+    .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3); /* Light gray for spinner track */
+    border-top-color: #000000; /* Black for spinner color */
+    
+    border-radius: 50%;
+    width: 16px; /* Adjust the size of the spinner */
+    height: 16px; /* Ensure it's a square */
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ensuring the spinner fits well inside the button */
+#downloadBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #firstInput {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .msg-buttons {
+      display: flex;
+
+      align-items: center;
+
+      gap: 10px;
+    }
+
+    #btn {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 16px;
+    }
+
+    #lastimg {
+      width: 30px
+    }
+
+
+    #three {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: -40px;
+    }
+
+    .textImg {
+      margin-right: -100px;
+      width: 30px;
+    }
+
+    .cross::after,
+    .cross::before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      /* Cross size */
+      height: 2px;
+      /* Line thickness */
+      background-color: black;
+    }
+
+    .cross::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      /* Slash size */
+      height: 2px;
+      /* Slash thickness */
+      top: 50%;
+      left: 50%;
+      background-color: black;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .cross::after,
+    .cross::before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      /* Cross size */
+      height: 2px;
+      /* Line thickness */
+      background-color: black;
+      top: 50%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+    }
+
+    .cross::before {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    #titleOfPage {
+      color: black;
+    }
+
+    .cross::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', monospace;
+      background-color: #1b1d2a;
+      /* Dark background for contrast */
+      color: #ffffff;
+      /* Light text for readability */
+    }
+
+
+    button {
+      background-color: #0056b3;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #003d7a;
+    }
+
+
+
+    #stopStreamBtn {
+      position: relative;
+      overflow: hidden;
+      margin-top: 1px;
+      height: 35px;
+      width: 35px;
+      /* Adjust the width as needed to match your button size */
+    }
+
+    .cross::before {
+      transform: rotate(45deg);
+    }
+
+    /* Assuming .icon-btn is the class for your button */
+    .icon-btn svg {
+      fill: white;
+      /* Or any light color that contrasts well with the button's background */
+    }
+
+    /* If you need to target the path within the SVG specifically */
+    .icon-btn svg path {
+      fill: white;
+    }
+
+    .msger-buttons {
+      display: flex;
+      /* Use flexbox for layout */
+      align-items: center;
+      /* Align items vertically in the center */
+      justify-content: space-around;
+      /* Distribute space evenly around items */
+    }
+
+    .icon-btn img {
+      width: 30px;
+      /* Fixed width for images */
+      height: 30px;
+      /* Fixed height for images */
+      border-radius: 50%;
+    }
+
+    .icon-btn svg,
+    .icon-btn img {
+      display: block;
+      /* Prevents inline formatting from affecting size */
+    }
+
+    .cross::after {
+      transform: rotate(-45deg);
+    }
+
+
+    #togglee {
+      width: 80px;
+      margin-left: 130px;
+    }
+
+    #titleOfPage {
+      font-family: 'Courier New', monospace;
+    }
+
+    #svg {
+      width: 20px;
+    }
+
+    #svgmic {
+      margin-right: 20px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    #feedback {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    #up {
+      height: 35px;
+    }
+
+    #down {
+      height: 35px;
+    }
+
+
+
+    .msg-text {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+
+
+
+    .mutebtn {
+      height: 26px;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+      #stopButton {
+        height: 24px;
+      }
+
+      #svgmic {
+        margin-right: px;
+      }
+
+
+
+
+
+
+      #up {
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 40px;
+        height: 20px;
+
+      }
+
+      #lastimg {
+        margin-top: -5px;
+        height: 23px;
+        width: 22px;
+      }
+
+
+
+      #down {
+        padding-bottom: 20px;
+        padding: 10px;
+        margin: auto;
+        width: 40px;
+        margin-left: -5px;
+        height: 30px;
+      }
+
+      .msg-buttons {
+        display: flex;
+        justify-content: center;
+      }
+
+      #feedback {
+        padding: 10px;
+        margin-right: 30px;
+        width: 100px;
+        height: 30px;
+      }
+
+      p {
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      #msgbox {
+        width: 250px;
+        font-family: 'Courier New', monospace;
+        height: auto;
+        font-size: 12px;
+      }
+
+      .msg-text {
+        font-size: 14px;
+        font-family: 'Courier New', monospace;
+      }
+
+      .mutebtn {
+        height: 25px;
+        margin-right: -20px;
+      }
+
+      #three {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-left: 50px;
+
+      }
+
+
+
+      #firstInput {
+        border-radius: 10px;
+      }
+
+
+
+      .textImg {
+        margin-right: -24px;
+      }
+
+
+      #stopStreamBtn {
+        width: 30px;
+        text-align: center;
+
+        height: 27px;
+        font-size: 10px;
+      }
+
+
+
+      #xer {
+        margin-left: -40px;
+      }
+
+
+   
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mainBox">
+    <div class="modalBox">
+      <div class="modalClose">
+        <button>close</button>
+      </div>
+      <div class="modal"></div>
+    </div>
+    <div class="hidden">
+      <select id="levelSelect">
+        <option value="level1" {% if layer=='level1' %} selected {% endif %}>Level1 Only</option>
+        <option value="level2" {% if layer=='level2' %} selected {% endif %}>Level2 Only</option>
+        <option value="allLevel" {% if layer=='allLevel' %} selected {% endif %}> Level1 + Level2</option>
+        <option value="bothLevels" {% if layer=='bothLevels' %} selected {% endif %}>Both Level1 and Level2</option>
+      </select>
+    </div>
+    
+    <div id="toast-container"></div>
+
+    <section class="msger">
+      <header class="msger-header">
+        <div class="titlewithButton">
+          <div id="titleOfPage" class="msger-header-title">JobBot</div>
+        </div>
+
+        <div class="msger-buttons">
+          <button id="stopStreamBtn" class="icon-btn" onclick="stopMediaStream()">
+            <img style="width: 30px;border-radius: 50%;"
+              src="data:image/jpeg;base64,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"
+              alt="">
+          </button>
+
+
+          <button class="mutebtn" class="icon-btn">
+            <svg
+      width="20px"
+      height="20px"
+      viewBox="0 0 512 512"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      fill="#000000"
+    >
+      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        {" "}
+        <title>sound-off-filled</title>{" "}
+        <g
+          id="Page-1"
+          stroke="none"
+          stroke-width="1"
+          fill="none"
+          fill-rule="evenodd"
+        >
+          {" "}
+          <g
+            id="icon"
+            fill="#ffffff"
+            transform="translate(42.666667, 59.581722)"
+          >
+            {" "}
+            <path
+              d="M47.0849493,-1.42108547e-14 L298.668,251.583611 L304.101001,257.015597 L304.101,257.016 L353.573532,306.488791 C353.573732,306.488458 353.573933,306.488124 353.574133,306.48779 L384.435257,337.348961 L384.434,337.349 L409.751616,362.666662 L379.581717,392.836561 L191.749,205.003 L191.749973,369.105851 L81.0208,283.647505 L7.10542736e-15,283.647505 L7.10542736e-15,112.980838 L80.8957867,112.980838 L91.433,104.688 L16.9150553,30.169894 L47.0849493,-1.42108547e-14 Z M361.298133,28.0146513 C429.037729,103.653701 443.797162,209.394226 405.578884,298.151284 L372.628394,265.201173 C396.498256,194.197542 381.626623,113.228555 328.013013,54.642278 L361.298133,28.0146513 Z M276.912853,95.5237713 C305.539387,127.448193 318.4688,168.293162 315.701304,208.275874 L266.464558,159.040303 C261.641821,146.125608 254.316511,133.919279 244.488548,123.156461 L243.588693,122.182545 L276.912853,95.5237713 Z M191.749973,25.7516113 L191.749,84.3256113 L158.969,51.5456113 L191.749973,25.7516113 Z"
+              id="Combined-Shape"
+            >
+              {" "}
+            </path>{" "}
+          </g>{" "}
+        </g>{" "}
+      </g>
+    </svg>
+          </button>
+
+          <div id="downloadBtn"></div>
+          <button id="btn" class="ctrPanelBtn">Panel</button>
+        </div>
+
+      </header>
+
+      <main class="msger-chat"></main>
+
+      <div class="formDiv">
+        <form id="queryForm" class="msger-inputarea">
+          <input id="firstInput" type="text" name="query" class="msger-input" placeholder="Enter your query" />
+          <div id="three">
+            <button class="btn" type="submit">Submit</button>
+
+            <div style="display: none;" id="togglee" class="tri-state-toggle">
+              <label class="toggleFast">Slow</label>
+              <input class="button" type="radio" name="toggle" id="slow" />
+              <input class="button" type="radio" name="toggle" id="fast" />
+              <input class="button" type="radio" name="toggle" id="groq" />
+            </div>
+          </div>
+        </form>
+        <label id="xx" for="fileInput" class="custom-file-upload">
+          <div id="uploadd">
+            <input type="file" id="fileInput" accept=".docx, .xlsx, .xls" onchange="handleUpload()" style="display: none;" />
+
+            Upload
+          </div>
+        </label>
+
+
+
+
+        <div id="music-player">
+          <div id="recordBtn" onclick="toggleRecording()">
+
+            <div id="blobs" class="blobs">
+              <svg id="svgmic" fill="#ffffff" height="49px" width="49px" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink"
+                enable-background="new 0 0 512 512">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <path
+                        d="m439.5,236c0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,70-64,126.9-142.7,126.9-78.7,0-142.7-56.9-142.7-126.9 0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,86.2 71.5,157.4 163.1,166.7v57.5h-23.6c-11.3,0-20.4,9.1-20.4,20.4 0,11.3 9.1,20.4 20.4,20.4h88c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-23.6v-57.5c91.6-9.3 163.1-80.5 163.1-166.7z">
+                      </path>
+                      <path
+                        d="m256,323.5c51,0 92.3-41.3 92.3-92.3v-127.9c0-51-41.3-92.3-92.3-92.3s-92.3,41.3-92.3,92.3v127.9c0,51 41.3,92.3 92.3,92.3zm-52.3-220.2c0-28.8 23.5-52.3 52.3-52.3s52.3,23.5 52.3,52.3v127.9c0,28.8-23.5,52.3-52.3,52.3s-52.3-23.5-52.3-52.3v-127.9z">
+                      </path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+<script src="https://cdn.sheetjs.com/xlsx-0.18.5/package/dist/xlsx.full.min.js"></script>
+<script src="https://unpkg.com/docx"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.5.1/mammoth.browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docx@latest"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.5.1/mammoth.browser.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script src="/static/js/index.js"></script>
+
+</html>
